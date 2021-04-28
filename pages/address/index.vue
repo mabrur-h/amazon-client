@@ -4,8 +4,7 @@
     <!--REGISTER ADDRESS-->
     <div class="registerAddress mt-3">
       <div class="container-fluid c-section">
-        <div class="row">
-          <div class="col-sm-2"></div>
+        <div class="row justify-content-center">
           <div class="col-sm-10">
             <div class="a-section a-spacing-medium">
               <div class="a-subheader a-breadcrumb a-spacing-small">
@@ -23,7 +22,7 @@
                   </li>
                 </ul>
               </div>
-              <h1 class="a-spacing-medium a-spacing-top-medium">Your Addresses</h1>
+              <h1 class="a-spacing-medium a-spacing-top-medium">Add or choose address</h1>
               <!-- Message from Server -->
               <div class="a-section a-spacing-none a-spacing-top-small">
                 <b>{{ message }}</b>
@@ -84,6 +83,11 @@
                 </div>
               </div>
             </div>
+            <div class="a-row a-spacing-micro w-25">
+              <nuxt-link to="/payment">
+                <span class="a-button-place-order">Proceed to checkout</span>
+              </nuxt-link>
+            </div>
           </div>
         </div>
       </div>
@@ -108,7 +112,7 @@ export default {
   },
   data() {
     return {
-      message: ""
+      message: "",
     }
   },
   methods: {

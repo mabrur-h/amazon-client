@@ -212,7 +212,7 @@
               <div class="a-box-inner">
                 <div class="a-row a-spacing-micro">
                   <nuxt-link to="/payment">
-                    <span class="a-button-place-order">Place your order in USD</span>
+                    <span class="a-button-place-order">Proceed to checkout</span>
                   </nuxt-link>
                 </div>
                 <div class="a-row a-spacing-small a-size-small a-text-center">

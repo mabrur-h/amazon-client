@@ -125,7 +125,7 @@
                   <div>
                     <span class="a-spacing-small a-button-primary a-button-icon">
                       <span class="a-button-inner">
-                        <nuxt-link to="/payment" class="a-button-text">Proceed to checkout</nuxt-link>
+                        <nuxt-link to="/address" class="a-button-text">Choose address</nuxt-link>
                       </span>
                     </span>
                   </div>
